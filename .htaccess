@@ -1,0 +1,47 @@
+
+
+# Block HTTrack and other download tools
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_USER_AGENT} ^HTTrack [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^Wget [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^curl [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^libwww-perl [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^Python-urllib [NC]
+    RewriteRule .* - [F,L]
+</IfModule>
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^https://(www\.)?cvahost\.in/ [NC]
+RewriteRule \.(jpg|jpeg|png|gif|pdf|css|js)$ - [F]
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+# Block specific user agents
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} ^HTTrack [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Wget [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^curl [NC]
+RewriteRule .* - [F,L]
+
+# Disable directory browsing
+Options -Indexes
+
+# Rate-limit requests
+<IfModule mod_reqtimeout.c>
+    RequestReadTimeout header=20-40,MinRate=500 body=20,MinRate=500
+</IfModule>
+
+# Block hotlinking
+RewriteCond %{HTTP_REFERER} !^https://(www\.)?cvahost\.in/ [NC]
+RewriteRule \.(jpg|jpeg|png|gif|css|js|pdf)$ - [F]
+
+# Custom error page
+ErrorDocument 403 /403.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

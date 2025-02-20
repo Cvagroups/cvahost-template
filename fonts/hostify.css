@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/*
+ * Author: Brandio
+ * Author URI: http://www.brandio.io/
+ * Copyright 2017 Brandio.
+ */
+
+
+@font-face {
+  font-family: "CvaHost";
+  src:url("CvaHost.eot");
+  src:url("CvaHost.eot?#iefix") format("embedded-opentype"),
+    url("CvaHost.woff") format("woff"),
+    url("CvaHost.ttf") format("truetype"),
+    url("CvaHost.svg#CvaHost") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "CvaHost" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="htfy-"]:before,
+[class*=" htfy-"]:before {
+  font-family: "CvaHost" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.htfy{
+    display: inline-block;
+    font-family: "CvaHost" !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.htfy-arrow-down:before {
+  content: "\61";
+}
+.htfy-tick:before {
+  content: "\62";
+}
+.htfy-computer:before {
+  content: "\63";
+}
+.htfy-cloud:before {
+  content: "\64";
+}
+.htfy-technology:before {
+  content: "\65";
+}
+.htfy-worldwide:before {
+  content: "\66";
+}
+.htfy-cogwheel:before {
+  content: "\67";
+}
+.htfy-download:before {
+  content: "\68";
+}
+.htfy-like:before {
+  content: "\69";
+}
+.htfy-location:before {
+  content: "\6a";
+}
+.htfy-s-arrow:before {
+  content: "\6b";
+}
+.htfy-padlock:before {
+  content: "\6c";
+}
+.htfy-speedometer:before {
+  content: "\6d";
+}
+.htfy-trophy:before {
+  content: "\6e";
+}
+.htfy-box:before {
+  content: "\6f";
+}
+.htfy-invoice:before {
+  content: "\70";
+}
+.htfy-tickets:before {
+  content: "\71";
+}
+.htfy-world-wide-web:before {
+  content: "\72";
+}

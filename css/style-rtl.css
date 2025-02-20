@@ -1,0 +1,1232 @@
+/*------------------------------------------------------------------
+	1. General Styles
+-------------------------------------------------------------------*/
+*, body {
+    direction: rtl;
+}
+
+.rtl-cols div[class^="col-"] {
+    float: left;
+}
+
+.slick-dots {
+    left: inherit;
+    right: 0;
+}
+
+.slick-dots li {
+    margin-left: inherit;
+    margin-right: 5px;
+}
+
+.slick-slide {
+    float: right;
+}
+
+.row-title:after {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -29px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right !important;
+    }
+
+    .navbar-nav.navbar-right {
+        float: left !important;
+    }
+
+    .navbar-nav.navbar-left {
+        float: right !important;
+    }
+}
+
+/*------------------------------------------------------------------
+	2. Header Styles
+-------------------------------------------------------------------*/
+#header-holder .bg-animation {
+    left: inherit;
+    right: 0%;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg);
+    z-index: -1;
+}
+
+#header-holder.inner-header:before {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@media (min-width: 1800px) {
+    #header-holder:before {
+        left: inherit;
+        right: 0;
+        -webkit-transform: skewY(10deg);
+        -moz-transform: skewY(10deg);
+        -ms-transform: skewY(10deg);
+        transform: skewY(10deg);
+        -webkit-transform-origin: right top;
+        -moz-transform-origin: right top;
+        -ms-transform-origin: right top;
+        transform-origin: right top;
+    }
+}
+
+.navbar-default .navbar-nav > li > a.login-button {
+    margin-left: inherit;
+    margin-right: 30px;
+}
+
+.support-button-holder a.support-button {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    -webkit-transform-origin: 25% 0%;
+    -moz-transform-origin: 25% 0%;
+    -ms-transform-origin: 25% 0%;
+    transform-origin: 25% 0%;
+}
+
+.dropdown-menu:before {
+    right: inherit;
+    left: 40px;
+}
+
+.dropdown-menu.dropdown-unity {
+    -webkit-transform-origin: 15% 0%;
+    -moz-transform-origin: 15% 0%;
+    -ms-transform-origin: 15% 0%;
+    transform-origin: 15% 0%;
+}
+
+.dropdown.mega > a:before {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -2px;
+}
+
+.dropdown.mega .dropdown-menu.dropdown-mega:after {
+    left: inherit;
+    right: 0;
+}
+
+.dropdown.unity-menu .dropdown-menu.dropdown-unity:after {
+    left: inherit;
+    right: 0;
+}
+
+.unity-link:hover .unity-box:after, .unity-link:focus .unity-box:after {
+    right: inherit;
+    left: 15px;
+}
+
+.unity-box {
+    padding: 13px 75px 13px 60px;
+}
+
+.unity-box:after {
+    right: inherit;
+    left: 20px;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.unity-box .unity-icon {
+    left: inherit;
+    right: 18px;
+}
+
+.mega-box {
+    padding: 20px 90px 20px 20px;
+}
+
+.mega-box .mega-icon {
+    left: inherit;
+    right: 20px;
+}
+
+.support-button-holder .dropdown-menu {
+    -webkit-transform-origin: 20% 0%;
+    -moz-transform-origin: 20% 0%;
+    -ms-transform-origin: 20% 0%;
+    transform-origin: 20% 0%;
+}
+
+.support-button-holder .dropdown-menu:before {
+    right: inherit;
+    left: 40px;
+}
+
+.support-button-holder .dropdown-menu:after {
+    left: inherit;
+    right: 0;
+}
+
+.support-button-holder .dropdown-menu li a [class*="fa"] {
+    margin-right: inherit;
+    margin-left: 7px;
+}
+
+/*------------------------------------------------------------------
+	3. Top Content Styles
+-------------------------------------------------------------------*/
+#top-content .domain-search-holder input[type="submit"] {
+    margin-left: inherit;
+    margin-right: 8px;
+}
+
+#header-holder.main-header .bg-animation {
+    left: inherit;
+    right: -100%;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: skewY(8deg) scaleX(-1);
+    -moz-transform: skewY(8deg) scaleX(-1);
+    -ms-transform: skewY(8deg) scaleX(-1);
+    transform: skewY(8deg) scaleX(-1);
+}
+
+#header-holder.main-header #top-content {
+    text-align: right;
+}
+
+#header-holder.main-header #top-content .noti-holder .noti {
+    padding-right: 6px;
+    padding-left: 30px;
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+}
+
+#header-holder.main-header #top-content .noti-holder .noti:after {
+    content: "\f104";
+    right: inherit;
+    left: 8px;
+}
+
+#header-holder.main-header #top-content .noti-holder .noti .badge {
+    margin-right: inherit;
+    margin-left: 8px;
+}
+
+#header-holder.main-header #top-content .btn-holder a:first-child {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+#header-holder.main-header #top-content .btn-holder a:last-child {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/*------------------------------------------------------------------
+	4. info Section Styles
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+	5. Services Section Styles
+-------------------------------------------------------------------*/
+.service-box {
+    padding-right: inherit;
+    padding-left: 30px;
+}
+
+.service-box .service-icon {
+    left: inherit;
+    right: -30px;
+}
+
+.service-box .service-title {
+    margin-left: inherit;
+    margin-right: 120px;
+}
+
+.service-box .service-title a {
+    padding: 3px 15px 3px 24px;
+}
+
+.service-box .service-title a:after {
+    right: inherit;
+    left: 10px;
+    -webkit-transform: translateX(0px) scaleX(-1);
+    -moz-transform: translateX(0px) scaleX(-1);
+    -ms-transform: translateX(0px) scaleX(-1);
+    transform: translateX(0px) scaleX(-1);
+}
+
+.service-box .service-title a:hover:after, .service-box .service-title a:focus:after {
+    right: inherit;
+    left: 10px;
+    -webkit-transform: translateX(-2px) scaleX(-1);
+    -moz-transform: translateX(-2px) scaleX(-1);
+    -ms-transform: translateX(-2px) scaleX(-1);
+    transform: translateX(-2px) scaleX(-1);
+}
+
+.service-box .service-details {
+    margin-left: inherit;
+    margin-right: 120px;
+}
+
+/*------------------------------------------------------------------
+	6. Message Section Styles
+-------------------------------------------------------------------*/
+.message-area .bg-color {
+    left: inherit;
+    right: 0;
+    -webkit-transform: skewY(10deg) scaleY(2.5);
+    -moz-transform: skewY(10deg) scaleY(2.5);
+    -ms-transform: skewY(10deg) scaleY(2.5);
+    transform: skewY(10deg) scaleY(2.5);
+}
+
+.message-area .buttons-holder {
+    text-align: left;
+}
+
+/*------------------------------------------------------------------
+	7. Pricing Section Styles
+-------------------------------------------------------------------*/
+#pricing .bg-color {
+    left: inherit;
+    right: 0;
+    -webkit-transform: skewY(10deg) scaleY(0.7);
+    -moz-transform: skewY(10deg) scaleY(0.7);
+    -ms-transform: skewY(10deg) scaleY(0.7);
+    transform: skewY(10deg) scaleY(0.7);
+}
+
+.pricing-box.pricing-box-simple:before {
+    right: inherit;
+    left: 84px;
+}
+
+.pricing-box.pricing-box-simple:after {
+    right: inherit;
+    left: 30px;
+}
+
+.pricing-box.pricing-box-simple .pricing-content .pricing-icon {
+    margin-left: inherit;
+    margin-right: -38px;
+}
+
+.pricing-box.pricing-box-simple .pricing-content .pricing-icon img {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -25px;
+}
+
+.pricing-box.pricing-box-simple.bestbuy .pricing-content:after {
+    left: inherit;
+    right: 100%;
+    margin-left: inherit;
+    margin-right: -98px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.pricing-box.pricing-box-simple.bestbuy:before {
+    right: inherit;
+    left: -5px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.pricing-box.pricing-box-simple.bestbuy:after {
+    content: "Best Buy!";
+    right: inherit;
+    left: 12px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.pricing-box .pricing-content .pricing-icon {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -44px;
+}
+
+.pricing-box .pricing-content .pricing-icon img {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -25px;
+}
+
+.pricing-box .pricing-content .pricing-details {
+    text-align: right;
+}
+
+.pricing-box .pricing-content .pricing-details ul li {
+    padding-left: inherit !important;
+    padding-right: 30px !important;
+}
+
+.pricing-box .pricing-content .pricing-details ul li:before {
+    left: inherit;
+    right: 0;
+}
+
+.pricing-box .pricing-content .pricing-details ul li:hover {
+    padding-left: inherit;
+    padding-right: 30px;
+}
+
+.pricing-box.featured .pricing-content:after {
+    left: inherit;
+    right: 20px;
+}
+
+.pricing-box.pricing-box-horizontal .pricing-content .pricing-head {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pricing-box.pricing-box-horizontal .pricing-content .pricing-features-holder .pricing-features:before {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -24px;
+}
+
+.pricing-box.pricing-unity .pricing-content .pricing-icon img {
+    left: inherit;
+    right: 0;
+    margin-left: inherit;
+    margin-right: 0;
+}
+
+#page-icon .pricing-icon {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -44px;
+}
+
+/*------------------------------------------------------------------
+	8. Custom Plan Section Styles
+-------------------------------------------------------------------*/
+#custom-plan {
+    text-align: right;
+}
+
+.custom-plan-box .slider .tooltip.top .tooltip-inner:after {
+    margin-left: inherit;
+    margin-right: 2px;
+}
+
+.custom-plan-box .slider-track:before {
+    background-color: #e7f3ff;
+    -webkit-box-shadow: 0 3px 8px rgba(112, 145, 179, 0.5);
+    box-shadow: 0 3px 8px rgba(112, 145, 179, 0.5);
+}
+
+.custom-plan-box .slider-track:after {
+    background-color: #3ec241;
+    -webkit-box-shadow: 0 3px 8px rgba(126, 231, 109, 0.5);
+    box-shadow: 0 3px 8px rgba(126, 231, 109, 0.5);
+}
+
+/*------------------------------------------------------------------
+	9. Features Section Styles
+-------------------------------------------------------------------*/
+#features-holder .feature-box {
+    left: inherit;
+    right: 0;
+}
+
+#features-holder .feature-box .feature-title-holder .feature-icon .htfy {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+#features-holder .feature-box .feature-title-holder .feature-icon [class*="fa"] {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+#features-links-holder .icons-axis {
+    right: inherit;
+    left: 0;
+}
+
+#features-links-holder .feature-icon-holder .feature-title {
+    right: inherit;
+    left: 75px;
+    text-align: left;
+}
+
+#features-links-holder .feature-icon-holder .animation-holder {
+    left: inherit;
+    right: 0;
+}
+
+#features-links-holder .feature-icon-holder1 {
+    right: inherit;
+    left: 50px;
+}
+
+#features-links-holder .feature-icon-holder2 {
+    right: inherit;
+    left: 182px;
+}
+
+#features-links-holder .feature-icon-holder3 {
+    right: inherit;
+    left: 234px;
+}
+
+#features-links-holder .feature-icon-holder4 {
+    right: inherit;
+    left: 182px;
+}
+
+#features-links-holder .feature-icon-holder5 {
+    right: inherit;
+    left: 50px;
+}
+
+/*------------------------------------------------------------------
+	10. Testimonials Section Styles
+-------------------------------------------------------------------*/
+#testimonials .bg-color {
+    left: inherit;
+    right: 0;
+    -webkit-transform: skewY(10deg) scaleY(0.8);
+    -moz-transform: skewY(10deg) scaleY(0.8);
+    -ms-transform: skewY(10deg) scaleY(0.8);
+    transform: skewY(10deg) scaleY(0.8);
+}
+
+#testimonials #testimonials-slider .slick-prev {
+    left: inherit;
+    right: 20px;
+}
+
+#testimonials #testimonials-slider .slick-prev:after {
+    left: inherit;
+    right: 0;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#testimonials #testimonials-slider .slick-prev:hover:after, #testimonials #testimonials-slider .slick-prev:focus:after {
+    -webkit-transform: scale(0.9) rotate(-90deg);
+    -moz-transform: scale(0.9) rotate(-90deg);
+    -ms-transform: scale(0.9) rotate(-90deg);
+    transform: scale(0.9) rotate(-90deg);
+}
+
+#testimonials #testimonials-slider .slick-next {
+    right: inherit;
+    left: 20px;
+}
+
+#testimonials #testimonials-slider .slick-next:after {
+    left: inherit;
+    right: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#testimonials #testimonials-slider .slick-next:hover:after, #testimonials #testimonials-slider .slick-next:focus:after {
+    -webkit-transform: scale(0.9) rotate(90deg);
+    -moz-transform: scale(0.9) rotate(90deg);
+    -ms-transform: scale(0.9) rotate(90deg);
+    transform: scale(0.9) rotate(90deg);
+}
+
+#testimonials #testimonials-slider .details-holder img.photo {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -38px;
+}
+
+/*------------------------------------------------------------------
+	11. More Features Section Styles
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+	12. Footer Section Styles
+-------------------------------------------------------------------*/
+#footer .footer-menu-holder {
+    text-align: right;
+}
+
+#footer .address-holder {
+    text-align: right;
+}
+
+#footer ul.footer-menu li a {
+    margin-left: initial;
+    margin-right: -15px;
+}
+
+#footer .phone {
+    margin-left: initial;
+    margin-right: -25px;
+}
+
+#footer .phone [class*="fa"] {
+    margin-right: initial;
+    margin-left: 7px;
+}
+
+#footer .email {
+    margin-left: initial;
+    margin-right: -25px;
+}
+
+#footer .email [class*="fa"] {
+    margin-right: initial;
+    margin-left: 7px;
+}
+
+#footer .address {
+    margin-left: initial;
+    margin-right: -25px;
+}
+
+#footer .address [class*="fa"] {
+    margin-right: initial;
+    margin-left: 7px;
+}
+
+#footer .social-menu li {
+    text-align: right;
+}
+
+/*------------------------------------------------------------------
+	13. Sign in - Sign up Pages Styles
+-------------------------------------------------------------------*/
+.website-logo {
+    left: inherit;
+    right: 0px;
+}
+
+.info-slider-holder {
+    left: inherit;
+    right: 0;
+}
+
+.info-slider-holder .bg-animation {
+    left: inherit;
+    right: 0;
+    -webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+
+.form-holder {
+    margin-left: inherit;
+    margin-right: 550px;
+}
+
+.form-holder .menu-holder {
+    text-align: left;
+}
+
+.form-holder .menu-holder ul.main-links li a.sign-button {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button .hno {
+    margin-left: inherit;
+    margin-right: 5px;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button:hover, .form-holder.signup .menu-holder ul.main-links li a.sign-button:focus {
+    padding-right: inherit;
+    padding-left: 15px;
+}
+
+.form-holder.signup .menu-holder ul.main-links li a.sign-button:hover .hno, .form-holder.signup .menu-holder ul.main-links li a.sign-button:focus .hno {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.signin-signup-form .form-title {
+    text-align: right;
+}
+
+.signin-signup-form .row div[class^="col-"]:first-child {
+    padding-right: inherit;
+    padding-left: 5px;
+}
+
+.signin-signup-form .row div[class^="col-"]:last-child {
+    padding-left: inherit;
+    padding-right: 5px;
+}
+
+.signin-signup-form .form-text input, .signin-signup-form .form-text .dropdown-toggle.btn-default {
+    text-align: right;
+}
+
+.signin-signup-form .form-text textarea {
+    text-align: right;
+}
+
+.signin-signup-form .form-text input[type="checkbox"]:not(:checked), .signin-signup-form .form-text input[type="checkbox"]:checked, .signin-signup-form .form-text input[type="radio"]:not(:checked), .signin-signup-form .form-text input[type="radio"]:checked {
+    left: inherit;
+    right: -9999px;
+}
+
+.signin-signup-form .form-text input[type="checkbox"]:not(:checked) + label, .signin-signup-form .form-text input[type="checkbox"]:checked + label, .signin-signup-form .form-text input[type="radio"]:not(:checked) + label, .signin-signup-form .form-text input[type="radio"]:checked + label {
+    padding-left: inherit;
+    padding-right: 23px;
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.signin-signup-form .form-text input[type="checkbox"]:checked + label:before, .signin-signup-form .form-text input[type="radio"]:checked + label:before {
+    left: inherit;
+    right: 0;
+}
+
+.signin-signup-form .form-text input[type="checkbox"]:not(:checked) + label:before, .signin-signup-form .form-text input[type="radio"]:not(:checked) + label:before {
+    left: inherit;
+    right: 0;
+}
+
+.signin-signup-form .form-text input[type="checkbox"]:checked + label:after, .signin-signup-form .form-text input[type="checkbox"]:not(:checked) + label:after {
+    left: inherit;
+    right: 2px;
+}
+
+.signin-signup-form .form-text input[type="radio"]:checked + label:after, .signin-signup-form .form-text input[type="radio"]:not(:checked) + label:after {
+    left: inherit;
+    right: 5px;
+}
+
+/*------------------------------------------------------------------
+	14. Inner Pages Styles
+-------------------------------------------------------------------*/
+.bg-custom {
+    left: inherit;
+    right: 0;
+}
+
+.bg-custom .obj-gradiant1 {
+    left: inherit;
+    right: 0;
+}
+
+.bg-custom .obj-gradiant2 {
+    right: inherit;
+    left: 0;
+}
+
+.icons-animation-holder .aicon {
+    margin-left: inherit;
+    margin-right: -53px;
+}
+
+.icons-animation-holder .aicon1 {
+    left: inherit;
+    right: 0%;
+}
+
+.icons-animation-holder .aicon2 {
+    left: inherit;
+    right: 100%;
+}
+
+.icons-animation-holder .aicon3 {
+    left: inherit;
+    right: 0%;
+}
+
+.icons-animation-holder .aicon4 {
+    left: inherit;
+    right: 100%;
+}
+
+.icons-animation-holder .aicon-main {
+    left: inherit;
+    right: 50%;
+}
+
+@keyframes animateplace1 {
+    0% {
+        top: 50%;
+        left: inherit;
+        right: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0%;
+        left: inherit;
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes animateplace2 {
+    0% {
+        top: 50%;
+        left: inherit;
+        right: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0%;
+        left: inherit;
+        right: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes animateplace3 {
+    0% {
+        top: 50%;
+        left: inherit;
+        right: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 100%;
+        left: inherit;
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes animateplace4 {
+    0% {
+        top: 50%;
+        left: inherit;
+        right: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 100%;
+        left: inherit;
+        right: 100%;
+        opacity: 1;
+    }
+}
+
+.company-info-holder {
+    text-align: right;
+}
+
+.company-info-holder .info-slider .slick-dots {
+    text-align: right;
+}
+
+.company-info-holder .info-slider .slick-dots li:first-child {
+    margin-left: inherit;
+    margin-right: 0;
+}
+
+#more-info .bg-custom {
+    left: inherit;
+    right: 0;
+}
+
+#more-info .bg-custom .obj-gradiant1 {
+    left: inherit;
+    right: 0;
+}
+
+#more-info .bg-custom .obj-gradiant2 {
+    right: 0;
+}
+
+#more-info .links-holder ul li .info-link {
+    text-align: right;
+}
+
+.info-details-holder .info-details {
+    left: inherit;
+    right: 0;
+}
+
+#team .person-box .person-icon .person-img {
+    left: inherit;
+    right: 0;
+}
+
+#apps .apps-holder .app-icon-holder:after {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -56px;
+}
+
+#apps .apps-holder .app-details div[class^="app-details"] {
+    left: inherit;
+    right: 0;
+}
+
+#apps .apps-holder .app-details div[class^="app-details"] .app-title {
+    text-align: right;
+}
+
+#apps .apps-holder .app-details div[class^="app-details"] .app-text {
+    text-align: right;
+}
+
+#apps .apps-holder .app-details div[class^="app-details"] .app-link {
+    text-align: right;
+}
+
+#apps .apps-holder .app-details div[class^="app-details"] .app-link a {
+    margin-left: inherit;
+    margin-right: 0;
+}
+
+#articles .article-summary .article-details {
+    text-align: right;
+}
+
+#articles .article-summary .article-title:after {
+    right: inherit;
+    left: 0;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#articles .article-summary .article-date {
+    text-align: right;
+}
+
+#articles .article-summary .article-text {
+    text-align: right;
+}
+
+#articles .article-summary .article-links .readmore-holder {
+    text-align: right;
+}
+
+#articles .article-summary .article-links .date-holder {
+    text-align: right;
+}
+
+#articles .pagination .page-number [class*="fa-"] {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#post-content .post .meta .view {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+#post-content .post .meta .view:before {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+#post-content .post .meta .like {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+#post-content .post .meta .like:before {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+#post-content .post .meta .comment {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+#post-content .post .meta .comment:before {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+#post-content #sidebar #categories.widget .item a span {
+    right: inherit;
+    left: 0px;
+}
+
+#post-content #sidebar #tags.widget a.tag-link {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+#info-text .text:after {
+    left: inherit;
+    right: 50%;
+    margin-left: inherit;
+    margin-right: -17px;
+}
+
+#contact-info .info-box {
+    text-align: right;
+}
+
+#contact-info .info-box .info-title:before {
+    margin-right: inherit;
+    margin-left: 18px;
+}
+
+#extra-info .text-holder {
+    text-align: right;
+}
+
+#extra-info .tld-graphic div:nth-child(1) {
+    -webkit-transform: scale(1) translateY(-10px) translateX(30px);
+    -moz-transform: scale(1) translateY(-10px) translateX(30px);
+    -ms-transform: scale(1) translateY(-10px) translateX(30px);
+    transform: scale(1) translateY(-10px) translateX(30px);
+}
+
+#extra-info .tld-graphic div:nth-child(3) {
+    -webkit-transform: scale(1) translateY(-10px) translateX(-30px);
+    -moz-transform: scale(1) translateY(-10px) translateX(-30px);
+    -ms-transform: scale(1) translateY(-10px) translateX(-30px);
+    transform: scale(1) translateY(-10px) translateX(-30px);
+}
+
+#extra-info .tld-graphic div:hover:nth-child(1) {
+    -webkit-transform: scale(1.1) translateY(-10px) translateX(30px);
+    -moz-transform: scale(1.1) translateY(-10px) translateX(30px);
+    -ms-transform: scale(1.1) translateY(-10px) translateX(30px);
+    transform: scale(1.1) translateY(-10px) translateX(30px);
+}
+
+#extra-info .tld-graphic div:hover:nth-child(3) {
+    -webkit-transform: scale(1.1) translateY(-10px) translateX(-30px);
+    -moz-transform: scale(1.1) translateY(-10px) translateX(-30px);
+    -ms-transform: scale(1.1) translateY(-10px) translateX(-30px);
+    transform: scale(1.1) translateY(-10px) translateX(-30px);
+}
+
+#page-content ul, #page-content ol {
+    padding-left: inherit;
+    padding-right: 14px;
+}
+
+/*------------------------------------------------------------------
+	15. Responsive Styles
+-------------------------------------------------------------------*/
+/* Other screens styles modifications */
+@media (max-width: 1200px) {
+    .icons-animation-holder .aicon {
+        margin-left: inherit;
+        margin-right: -42px;
+    }
+}
+
+@media (max-width: 992px) {
+    .message-area .buttons-holder {
+        text-align: right;
+    }
+
+    .message-area .buttons-holder .ybtn {
+        margin-left: inherit;
+        margin-right: 0;
+    }
+
+    .navbar-default .navbar-nav > li > a.login-button {
+        margin-left: inherit;
+        margin-right: 10px;
+    }
+
+    #features-links-holder .feature-icon-holder .feature-title {
+        right: inherit;
+        left: 50%;
+        margin-right: inherit;
+        margin-left: -75px;
+    }
+
+    #features-links-holder .icons-axis {
+        right: inherit;
+        left: 50%;
+        margin-right: inherit;
+        margin-left: -97px;
+    }
+
+    #features-links-holder .feature-icon-holder1 {
+        left: inherit;
+        right: 50%;
+        margin-left: inherit;
+        margin-right: -202px;
+    }
+
+    #features-links-holder .feature-icon-holder2 {
+        left: inherit;
+        right: 50%;
+        margin-left: inherit;
+        margin-right: -168px;
+    }
+
+    #features-links-holder .feature-icon-holder3 {
+        right: inherit;
+        left: 50%;
+        margin-right: inherit;
+        margin-left: -31px;
+    }
+
+    #features-links-holder .feature-icon-holder4 {
+        right: inherit;
+        left: 50%;
+        margin-right: inherit;
+        margin-left: -168px;
+    }
+
+    #features-links-holder .feature-icon-holder5 {
+        right: inherit;
+        left: 50%;
+        margin-right: inherit;
+        margin-left: -202px;
+    }
+
+    .form-holder {
+        margin-left: inherit;
+        margin-right: 0;
+    }
+
+    .website-logo {
+        left: inherit;
+        right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-toggle {
+        margin-right: inherit;
+        margin-left: 0;
+    }
+
+    .navbar-default .navbar-nav > li > a.login-button {
+        margin-left: inherit;
+        margin-right: 0;
+    }
+
+    .support-button-holder a.support-button {
+        margin-left: inherit;
+        margin-right: 0;
+    }
+
+    .support-button-holder .dropdown-menu:before {
+        right: inherit;
+        left: 50%;
+        margin-right: inherit;
+        margin-left: -2px;
+    }
+
+    .mega .dropdown-menu .mega-box {
+        text-align: right;
+    }
+
+    .dropdown.mega {
+        float: right;
+    }
+
+    #top-content .domain-search-holder input[type="submit"] {
+        margin-left: inherit;
+        margin-right: 0px;
+    }
+
+    #features-links-holder .icons-axis {
+        margin-right: inherit;
+        margin-left: -70px;
+    }
+
+    #features-links-holder .feature-icon-holder1 {
+        margin-left: inherit;
+        margin-right: -190px;
+    }
+
+    #features-links-holder .feature-icon-holder2 {
+        margin-left: inherit;
+        margin-right: -146px;
+    }
+
+    #features-links-holder .feature-icon-holder4 {
+        margin-right: inherit;
+        margin-left: -146px;
+    }
+
+    #features-links-holder .feature-icon-holder5 {
+        margin-right: inherit;
+        margin-left: -190px;
+    }
+
+    #testimonials #testimonials-slider .slick-next {
+        right: inherit;
+        left: 0px;
+    }
+
+    #testimonials #testimonials-slider .slick-prev {
+        left: inherit;
+        right: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    #features-links-holder .feature-icon-holder1 {
+        margin-left: inherit;
+        margin-right: -162px;
+    }
+
+    #features-links-holder .feature-icon-holder2 {
+        margin-left: inherit;
+        margin-right: -126px;
+    }
+
+    #features-links-holder .feature-icon-holder4 {
+        margin-right: inherit;
+        margin-left: -126px;
+    }
+
+    #features-links-holder .feature-icon-holder5 {
+        margin-right: inherit;
+        margin-left: -162px;
+    }
+
+    #apps .apps-holder .app-icon-holder:after {
+        right: inherit;
+        left: -4px;
+    }
+}
